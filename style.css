@@ -59,12 +59,11 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-.user-image-container{
+.logo-container{
     text-align: center;
 }
-
-.user-container {
-    display: block;
+.data-users-row {
+    display: block !important;
 }
 
 .header-menu {
