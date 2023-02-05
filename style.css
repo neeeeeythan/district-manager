@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 768px) {
+.user-image-container{
+    text-align: center;
+}
 .header-menu {
     display: block;
     text-align: center;
