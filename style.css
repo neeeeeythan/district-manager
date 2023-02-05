@@ -54,10 +54,19 @@ body{
     display: contents;
 }
 
+.user-container {
+    display: flex;
+}
+
 @media screen and (max-width: 768px) {
 .user-image-container{
     text-align: center;
 }
+
+.user-container {
+    display: block;
+}
+
 .header-menu {
     display: block;
     text-align: center;

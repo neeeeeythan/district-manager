@@ -12,7 +12,7 @@ fetch("users.json")
     for(let user of users){
         out += `
                     <div class="col-lg-4 d-flex">
-                        <div class="user-container d-flex">
+                        <div class="user-container">
                             <div class="col-lg-5">
                                 <div class="user-image-container">
                                     <img src="/district-manager/assets/userphoto.png" alt="User Photo" class="userphoto">
