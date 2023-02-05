@@ -58,9 +58,11 @@ window.onload = function countMe(){
 
 }
 
-$(document).ready(function(){
-    $(".convert-date").click(function(){
-        alert(jQuery("#date").value.split("-").reverse().join("-"));
-    });
-  });
+
+$(".convert-date").click(function(){
+    var dateString = new Date($("#date").val());
+    alert( dateString.getFullYear() + '/' + (dateString.getMonth() + 1) + '/' +  dateString.getDate());
+
+});
+
 

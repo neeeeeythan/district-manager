@@ -7,6 +7,7 @@
     list-style-type: none;
     padding: 0;
     margin-bottom: 0;
+    display: flex;
 }
     
 .header-menu li {
@@ -48,4 +49,21 @@
 
 .user-list {
     display: contents;
+}
+
+@media screen and (max-width: 768px) {
+.header-menu {
+    display: block;
+    text-align: center;
+}
+.header-menu li {
+    margin-bottom: 5px;
+}
+br {
+    display:none;
+}
+.user-container {
+    column-gap: 15px;
+    margin: 15px;
+}
 }
