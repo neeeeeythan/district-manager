@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" />
+<title>Document</title>
+</head>
+<body>
+        <section class="header-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo-container">
+                            <img src="/assets/logo.png" alt="Logo" class="logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="header-navbar">
+                            <ul class="header-menu d-flex">
+                                <li class="our-products">OUR <br>PRODUCTS</li>
+                                <li class="about-us">ABOUT <br>US</li>
+                                <li class="live-better">LIVE <br>BETTER</li>
+                                <li class="claims-support">CLAIMS & <br>SUPPORT</li>
+                                <li class="my-account">MY <br>ACCOUNT</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row page-title">
+                <div class="col-lg-12">
+                    <div class="head-title text-center">
+                        <h1>DISTRICT MANAGER</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="age-container mt-5 mb-4">
+                            <p>Filter By Age</p>
+                        <select name="age" id="age" class="age-option">
+                            <option value="All">All</option>
+                            <option value="20 and below">20 and below</option>
+                            <option value="21 to 39">21 to 39</option>
+                            <option value="40 and above">40 and above</option>
+                        </select>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-4 d-flex">
+                        <div class="user-container d-flex">
+                            <div class="col-lg-5">
+                                <div class="user-image-container">
+                                    <img src="/assets/userphoto.png" alt="User Photo" class="userphoto">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="user-info" id="data-output">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-lg-12">
+                        <div class="date-container">
+                            <p>Date</p>
+                            <input type="date" id="date" name="date" value="2019-04-20" min="2000-01-01" max="2025-01-01">
+                            <button class="convert-date">CONVERT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</head>
