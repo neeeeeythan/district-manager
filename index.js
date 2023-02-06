@@ -21,11 +21,11 @@ fetch("users.json")
                             <div class="col-lg-7">
                                 <div class="user-info">
                                     <h4 class="user-name">${user.name}</h4>
-                                    <p class="user-email">Email: ${user.email}</p>
-                                    <p class="user-company">Company: ${user.company}</p>
-                                    <p class="user-address">Address: ${user.address.zipcode} ${user.address.street} ${user.address.suite} ${user.address.city}</p>
-                                    <p class="user-website">Website: ${user.website}</p>
-                                    <p class="user-age">Age: ${user.age}</p>
+                                    <p class="user-email">Email:<b> ${user.email}</b></p>
+                                    <p class="user-company">Company: <b>${user.company}</b></p>
+                                    <p class="user-address">Address: <b>${user.address.zipcode} ${user.address.street} ${user.address.suite} ${user.address.city}</b></p>
+                                    <p class="user-website">Website: <b>${user.website}</b></p>
+                                    <p class="user-age">Age: <b>${user.age}</b></p>
                                 </div>
                             </div>
                         </div>
