@@ -23,6 +23,7 @@ body{
 .page-title {
     background-color: #fbf6f6;
     padding: 20px;
+    width: 100%;
 }
 
 .user-container {
@@ -58,6 +59,11 @@ body{
     display: flex;
 }
 
+.date-button {
+    display: flex;
+    column-gap: 15px;
+}
+
 @media screen and (max-width: 768px) {
 .logo-container{
     text-align: center;
@@ -79,5 +85,16 @@ br {
 .user-container {
     column-gap: 15px;
     margin: 15px;
+}
+#age, #date {
+    width: 100%;
+}
+
+.btn-convert {
+    margin-top: 15px;
+    text-align: center;
+}
+.date-button {
+    display: block;
 }
 }
