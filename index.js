@@ -1,3 +1,4 @@
+
 fetch("users.json")
 
 .then(function(response){
@@ -36,6 +37,35 @@ fetch("users.json")
     placeholder.innerHTML = out;
 
 })
+
+const filteredAges = [];
+let ages = require('/district-manager/users.json');
+
+function filterAge(e) {
+  const {value} = e.target;
+  const filter = e.target.value;
+  if (filter === 'All' ) {
+    filteredAges = ages;
+  } else if (target = 20 ) {
+    filteredAges = ages.filter(x =>{
+      if (x <= 20) {
+        return x;
+      }
+    }).map(x=>x);
+  } else if (target = 21) {
+    filteredAges = ages.filter(x =>{
+      if (x > 20 && x <= 39) {
+        return x;
+      }
+    }).map(x=>x);
+  } else if (target = 40) {
+    filteredAges = ages.filter(x =>{
+      if (x >= 40) {
+        return x;
+      }
+    }).map(x=>x);
+  }
+}
 
 
 window.onload = function countMe(){

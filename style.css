@@ -94,4 +94,8 @@ br {
 .date-button {
     display: block;
 }
+
+.user-info p {
+    font-size: 12px;
+}
 }
