@@ -38,38 +38,38 @@ fetch("users.json")
 
 })
 
-const filteredAges = [];
-const ages = require('/district-manager/users.json');
+// const filteredAges = [];
+// const ages = require('/district-manager/users.json');
 
-function filterAge(e) {
-  const {value} = e.target;
-  const filter = e.target.value;
-  if (filter === 'All' ) {
-    filteredAges = ages;
-    console.log("Age", filteredAges);
-  } else if (target = 20 ) {
-    filteredAges = ages.filter(x =>{
-      if (x <= 20) {
-        return x;
-      }
-    }).map(x=>x);
-    console.log("Age", filteredAges);
-  } else if (target = 21) {
-    filteredAges = ages.filter(x =>{
-      if (x > 20 && x <= 39) {
-        return x;
-      }
-    }).map(x=>x);
-    console.log("Age", filteredAges);
-  } else if (target = 40) {
-    filteredAges = ages.filter(x =>{
-      if (x >= 40) {
-        return x;
-      }
-    }).map(x=>x);
-    console.log("Age", filteredAges);
-  }
-}
+// function filterAge(e) {
+//   const {value} = e.target;
+//   const filter = e.target.value;
+//   if (filter === 'All' ) {
+//     filteredAges = ages;
+//     console.log("Age", filteredAges);
+//   } else if (target = 20 ) {
+//     filteredAges = ages.filter(x =>{
+//       if (x <= 20) {
+//         return x;
+//       }
+//     }).map(x=>x);
+//     console.log("Age", filteredAges);
+//   } else if (target = 21) {
+//     filteredAges = ages.filter(x =>{
+//       if (x > 20 && x <= 39) {
+//         return x;
+//       }
+//     }).map(x=>x);
+//     console.log("Age", filteredAges);
+//   } else if (target = 40) {
+//     filteredAges = ages.filter(x =>{
+//       if (x >= 40) {
+//         return x;
+//       }
+//     }).map(x=>x);
+//     console.log("Age", filteredAges);
+//   }
+// }
 
 
 window.onload = function countMe(){
